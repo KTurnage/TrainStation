@@ -12,15 +12,32 @@
 
 // Initialize Firebase
 
-var config = {
-    apiKey: "AIzaSyAZEFv3Ct999cGfN0uhSvWjmpnBS-tS26U",
-    authDomain: "trainstation-0314.firebaseapp.com",
-    databaseURL: "https://trainstation-0314.firebaseio.com",
-    projectId: "trainstation-0314",
-    storageBucket: "trainstation-0314.appspot.com",
-    messagingSenderId: "108012500294"
-};
-firebase.initializeApp(config);
+
+
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyBT65MTHCzxRNfhK2mOxucUhMgkvvcBrSs",
+    authDomain: "alltrainschedules.firebaseapp.com",
+    databaseURL: "https://alltrainschedules.firebaseio.com",
+    projectId: "alltrainschedules",
+    storageBucket: "alltrainschedules.appspot.com",
+    messagingSenderId: "416769276686"
+  };
+  firebase.initializeApp(config);
+
+
+
+
+
+// var config = {
+//     apiKey: "AIzaSyAZEFv3Ct999cGfN0uhSvWjmpnBS-tS26U",
+//     authDomain: "trainstation-0314.firebaseapp.com",
+//     databaseURL: "https://trainstation-0314.firebaseio.com",
+//     projectId: "trainstation-0314",
+//     storageBucket: "trainstation-0314.appspot.com",
+//     messagingSenderId: "108012500294"
+// };
+// firebase.initializeApp(config);
 
 
 var database = firebase.database();
