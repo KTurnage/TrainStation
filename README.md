@@ -2,7 +2,8 @@
 Predict when the next train will arrive.
 
 ## Getting Started
-n/a
+[live link](https://kturnage.github.io/TrainStation/)
+[link to repository](https://github.com/KTurnage/TrainStation/)
 
 ### Prerequisites
 n/a
